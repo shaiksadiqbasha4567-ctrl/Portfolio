@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <div><a href="#home" class="nav">Home</a></div>
+        <div><a href="#about" class="nav">About</a></div>
+        <div><a href="#skills" class="nav">Skills</a></div>
+        <div><a href="#projects" class="nav">Projects</a></div>
+        <div><a href="#education" class="nav">Education</a></div>
+        <div><a href="#contact" class="nav">Contact</a></div>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <div class="left">
+                <h1>Hi,I'm Sadiq </h1>
+                <p>I'm a <span>computer Science Student</span> passionate about building
+                    web applications and learning new technologies.I'm currently
+                    focusing on Java backend development and exploring full stack
+                    technologies to build real world applications.
+                </p>
+                <div><a href="#projects" class="btn">
+                        View My Projects</a></div>
+                <div><a href="#contact" class="btn">
+                        Contact Me
+                    </a></div>
+
+            </div>
+            <div class="right">
+                <img id="profile-pic" src="profile.jpeg" alt="My profile picture">
+            </div>
+        </div>
+
+
+
+    </section>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a <span>Computer Science student</span> interested in software
+            development and technology.I have a foundation in programming languages
+            like <span>Java and C ,along with frontend technologies such as HTML,CSS,
+                and JavaScript.</span>I've worked on projects involving <span>Java,JDBC, and MySQL</span>
+            and have also explored Python through internship Projects.I'm continously
+            learning new technologies and improving my problem-solving skills to become
+            a skilled java full stack developer.
+        </p>
+    </section>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p>I'm continously developing my technical skills by learning new
+            technologies and applying them through practical projects
+        </p>
+        <div class="skill-card">
+            <div class="row">
+                <img class="img" src="language.jpeg" alt="programming languages">
+            </div>
+            <div class="row">
+                <img class="img" src="front.jpeg" alt="Frontend Technologies">
+            </div>
+            <div class="row">
+                <img class="img" src="back.jpeg" alt="Backend Technologies">
+            </div>
+            <div class="row">
+                <img class="img" src="tools.jpeg" alt="Tools">
+
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <h2>My Projects</h2>
+        <p>Here are some projects.I've developed while learning programming
+            and exploring development.
+        </p>
+        <div class="room">
+            <img class="img1" src="project1.png" alt="Weather App">
+        </div>
+        <ul>
+            <li>Developed using HTML,CSS and JS</li>
+            <li>Connected to an weather API </li>
+            <li>It displays weather using weather API</li>
+        </ul>
+        <div class="room">
+            <img class="img1" src="project2.png" alt="Game">
+        </div>
+        <ul>
+            <li>Developed using HTML,CSS and JS</li>
+            <li>It also sound effects using JS</li>
+        </ul>
+    </section>
+    <section id="education">
+        <h2>My Education</h2>
+        <p>My academic journey has helped me develop a strong foundation
+            in computer science,programming,and problem-solving
+        </p>
+        <div class="ed">
+            <img class="img1" src="ed.jpeg" alt="Education">
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <p>I'm always open to discussing new opportunities ,collaborations
+            ,and interesting projects.Feel Free to reach out me.
+        </p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/s-sadiq-basha-a89a9a387" target="_blank" aria-label="LinkedIn">
+                <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/shaiksadiqbasha4567-ctrl" target="_blank" aria-label="GitHub">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </div>
+        <form action="https://formspree.io/f/mgakrlpz" method="POST" class="contact-form">
+
+            <div class="form-group">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message here..."
+                    required></textarea>
+            </div>
+
+            <button type="submit" class="btn-email">Send Message</button>
+
+    </section>
+</body>
+
+</html>
